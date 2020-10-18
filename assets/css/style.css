@@ -45,7 +45,7 @@ figure {
   height: 175px;
   width: 100%;
   margin-bottom: 25px;
-  background-image: url("..assets\images\styline.jpg");
+  background-image: url("../../assets/images/skyline.jpg");
   background-size: cover;
   background-position: center;
 }
