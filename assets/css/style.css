@@ -51,6 +51,18 @@ figure {
   background-position: center;
 }
 
+article {
+  display: flex;
+  align-items: center;
+  padding-right: 3%;
+}
+
+article h1 {
+  padding: 5.4%;
+  border-right: #445877 solid;
+}
+
+
 .grid-container {
     display: grid;
     column-gap: 10px;
@@ -64,4 +76,14 @@ figure {
     min-height: 100px;
     display: flex;
     background-color: gray
+}
+
+#contact-me {
+  display: flex;
+  align-items: center;
+}
+
+#contact-me h1 {
+  padding: 3%;
+  border-right: #445877 solid;
 }
