@@ -27,6 +27,7 @@ header h1 {
 
 header nav ul {
   list-style-type: none;
+  display: flex;
 }
 
 header nav ul li {
@@ -34,14 +35,17 @@ header nav ul li {
 }
 
 header nav a {
-  display: flexbox;
   background-color: #31343d;
   color: #92ccce;
   padding: 7px;
 }
 
+figure {
+  width: 100%;
+  height: 15%;
+  background-image: url("./assets/images/styline.jpg");
 
-
+}
 
 .grid-container {
     display: grid;
