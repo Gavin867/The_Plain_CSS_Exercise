@@ -1,6 +1,6 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
-  color: ;
+  color: #445877;
   background-color: whitesmoke;
   box-sizing: border-box;
   padding: 0;
@@ -22,7 +22,7 @@ header h1 {
   background-color: #92ccce;
   color: #31343d;
   padding-left: 3%;
-  font-size: 30pt;
+  font-size: 35px;
 }
 
 header nav ul {
@@ -33,9 +33,11 @@ header nav ul li {
   display: inline-block;
 }
 
-header nav ul a {
+header nav a {
+  display: flexbox;
   background-color: #31343d;
   color: #92ccce;
+  padding: 7px;
 }
 
 
@@ -54,5 +56,4 @@ header nav ul a {
     min-height: 100px;
     display: flex;
     background-color: gray
-} */
-
+}
