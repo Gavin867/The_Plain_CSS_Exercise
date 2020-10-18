@@ -37,15 +37,17 @@ header nav a {
   display: inline-block;
   background-color: #31343d;
   color: #92ccce;
-  padding: 7px;
+  padding: 7px; /* No idea why but when I change it to % it messes up */
   padding-bottom: 0;
 }
 
 figure {
+  height: 175px;
   width: 100%;
-  height: 15%;
-  background-image: url("img/assets/images/styline.jpg");
-
+  margin-bottom: 25px;
+  background-image: url("..assets\images\styline.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .grid-container {
