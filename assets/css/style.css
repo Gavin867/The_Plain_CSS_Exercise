@@ -54,12 +54,18 @@ figure {
 article {
   display: flex;
   align-items: center;
+  justify-content: stretch;
   padding-right: 3%;
 }
 
 article h1 {
   padding: 5.4%;
   border-right: #445877 solid;
+  text-align: right;
+}
+
+article p {
+  padding-left: 3%;
 }
 
 
