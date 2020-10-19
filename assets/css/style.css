@@ -68,6 +68,12 @@ article {
   padding-bottom: 3%;
 }
 
+#portrait {
+  height: 12%;
+  width: 12%;
+  padding-left: 3%;
+}
+
 article h1 {
   padding: 5.4%;
   border-right: #445877 solid;
