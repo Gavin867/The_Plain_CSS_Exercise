@@ -1,5 +1,6 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
   color: #445877;
   background-color: whitesmoke;
   box-sizing: border-box;
@@ -64,6 +65,7 @@ article {
   align-items: center;
   justify-content: stretch;
   padding-right: 3%;
+  padding-bottom: 3%;
 }
 
 article h1 {
@@ -81,6 +83,7 @@ article p {
   align-items: center;
   justify-content: stretch;
   padding-right: 3%;
+  padding-bottom: 3%;
 }
 
 #work h1 {
@@ -114,4 +117,12 @@ article p {
 #contact-me h1 {
   padding: 3%;
   border-right: #445877 solid;
+}
+
+#contact-me ul {
+  background-color: whitesmoke;
+  list-style-type: none;
+  display: flex;
+  font-size: 12pt;
+  padding: 5%;
 }
