@@ -51,6 +51,14 @@ figure {
   background-position: center;
 }
 
+figure h1 {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  color: #31343d;
+  background-color: #92ccce;
+}
+
 article {
   display: flex;
   align-items: center;
@@ -68,6 +76,18 @@ article p {
   padding-left: 3%;
 }
 
+#work {
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  padding-right: 3%;
+}
+
+#work h1 {
+  padding: 5.75%;
+  border-right: #445877 solid;
+  text-align: right;
+}
 
 .grid-container {
     display: grid;
@@ -87,6 +107,8 @@ article p {
 #contact-me {
   display: flex;
   align-items: center;
+  justify-content: stretch;
+  padding-right: 3%;
 }
 
 #contact-me h1 {
