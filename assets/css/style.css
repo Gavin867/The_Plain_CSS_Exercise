@@ -98,7 +98,7 @@ article p {
   text-align: right;
 }
 
-.grid-container {
+#work-container {
     display: grid;
     column-gap: 10px;
     row-gap: 10px; 
