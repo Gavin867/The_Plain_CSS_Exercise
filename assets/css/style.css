@@ -123,6 +123,7 @@ article p {
 #contact-me h1 {
   padding: 3%;
   border-right: #445877 solid;
+  margin-bottom: 2%;
 }
 
 #contact-me ul {
@@ -130,5 +131,10 @@ article p {
   list-style-type: none;
   display: flex;
   font-size: 12pt;
-  padding: 5%;
+  padding-left: 5%;
+}
+
+#contact-me ul a {
+  padding-right: 50px;
+  font-size: 16pt;
 }
