@@ -52,7 +52,7 @@ figure {
   background-position: center;
 }
 
-figure h1 {
+figure h2 {
   position: absolute;
   bottom: 5%;
   right: 5%;
@@ -74,7 +74,7 @@ article {
   padding-left: 3%;
 }
 
-article h1 {
+article h2 {
   padding: 5.4%;
   border-right: #445877 solid;
   text-align: right;
@@ -92,25 +92,56 @@ article p {
   padding-bottom: 3%;
 }
 
-#work h1 {
+#work h2 {
   padding: 5.75%;
   border-right: #445877 solid;
   text-align: right;
 }
 
-#work-container {
+#grid-container {
+    align-items: flex-end;
     display: grid;
     column-gap: 10px;
     row-gap: 10px; 
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: auto auto;
     grid-auto-rows: minmax(100px, 1fr);
+    padding-left: 5%;
+    width: 82%;
 }
 
-.grid-item {
-    border: 2px solid green;
+#grid-box-wide {
+  min-height: 200px;
+  border: 2px solid green;
+  background-color: gray;
+  grid-row: span 2;
+  grid-column: span 2;
+  background-image: url("../images/surf.jpg");
+  background-size: cover;
+}
+
+#grid-box-wide h3 {
+  color: #31343d;
+  background-color: #92ccce;
+  max-width: 10%;
+  max-height: 25px;
+  font-size: 12pt;
+  padding-bottom: 20px;
+}
+
+#grid-box-wide h4 {
+  color: #31343d;
+  background-color: #92ccce;
+  max-width: 10%;
+  max-height: 25px;
+  font-size: 8pt;
+  padding-bottom: 0;
+}
+
+.grid-box {
+   
     min-height: 100px;
     display: flex;
-    background-color: gray
+    background-color: gray;
 }
 
 #contact-me {
@@ -120,7 +151,7 @@ article p {
   padding-right: 3%;
 }
 
-#contact-me h1 {
+#contact-me h2 {
   padding: 3%;
   border-right: #445877 solid;
   margin-bottom: 2%;
