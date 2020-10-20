@@ -119,8 +119,8 @@ article p {
   background-size: cover;
 }
 
-#grid-box-wide h3 {
-  color: #31343d;
+
+.label-h3 {
   background-color: #92ccce;
   max-width: 10%;
   max-height: 25px;
@@ -128,8 +128,7 @@ article p {
   padding-bottom: 20px;
 }
 
-#grid-box-wide h4 {
-  color: #31343d;
+.label-h4 {
   background-color: #92ccce;
   max-width: 10%;
   max-height: 25px;
@@ -138,7 +137,6 @@ article p {
 }
 
 .grid-box {
-   
     min-height: 100px;
     display: flex;
     background-color: gray;
