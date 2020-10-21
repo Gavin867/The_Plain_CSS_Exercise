@@ -72,11 +72,13 @@ article {
   height: 12%;
   width: 12%;
   padding-left: 3%;
+  border-left: #445877 solid 3px;
 }
 
 article h2 {
-  padding: 5.4%;
-  border-right: #445877 solid;
+  padding-left: 10%;
+  /* padding: 5.4%; */
+  justify-content: right;
   text-align: right;
 }
 
@@ -119,8 +121,12 @@ article p {
   background-size: cover;
 }
 
+.labelcoord {
+  position: relative;
+}
 
 .label-h3 {
+  position: absolute;
   background-color: #92ccce;
   max-width: 15%;
   max-height: 25px;
@@ -171,7 +177,7 @@ article p {
 }
 
 #contact-me h2 {
-  padding: 3%;
+  padding: 3.5%;
   border-right: #445877 solid;
   margin-bottom: 2%;
 }
