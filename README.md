@@ -1,5 +1,7 @@
 # my-portfolio
-Updated 10/20/2020 at 1525 PDT
+Updated 11/29/2020 at 1525 PDT
+
+NOTE: This page is an outdated homework assignment from the second week of the UW coding bootcamp carriculum. For a current portfolio page, please reference "my-portfolio-2.0" created on 11/29/2020.
 
 ## Purpose and Scope
 
