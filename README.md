@@ -1,12 +1,9 @@
-# my-portfolio
-Updated 11/29/2020 at 1525 PDT
-
-NOTE: This page is an outdated homework assignment from the second week of the UW coding bootcamp carriculum. For a current portfolio page, please reference "my-portfolio-2.0" created on 11/29/2020.
+# The Plain CSS Exercise
 
 ## Project Location
 
-* [GitHub Repo](https://github.com/Gavin867/02-my-portfolio)
-* [Published Site](https://gavin867.github.io/02-my-portfolio/)
+* [GitHub Repo](https://github.com/Gavin867/The_Plain_CSS_Exercise)
+* [Published Site](https://gavin867.github.io/The_Plain_CSS_Exercise/)
 
 
 ## Purpose and Scope
